@@ -1,0 +1,18 @@
+{"timestamp":"2026-03-16T00:40:01.272191Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-16T00:40:01.274740Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-16T00:40:01.340850Z","level":"info","event":"USER: hornet","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.341300Z","level":"info","event":"PASSWORD: akali","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.341543Z","level":"info","event":"DATABASE: weather_pipeline_ml","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.341783Z","level":"info","event":"HOST: host.docker.internal","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.340985Z","level":"info","event":"Conectando em host.docker.internal:5432/weather_pipeline_ml","logger":"root","filename":"load_data.py","lineno":25}
+{"timestamp":"2026-03-16T00:40:01.373862Z","level":"warning","event":"The `airflow.decorators.dag` attribute is deprecated. Please use `'airflow.sdk.dag'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/weather_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-03-16T00:40:01.374088Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/weather_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-03-16T00:40:01.439492Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.440025Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.440625Z","level":"info","event":"Current task name:extract","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:01.440924Z","level":"info","event":"Dag name:pipeline_weather_ml","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:02.121980Z","level":"error","event":"Erro na requisição","logger":"root","filename":"extract_data.py","lineno":13}
+{"timestamp":"2026-03-16T00:40:02.123904Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-16T00:40:02.149022Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:02.149393Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-16T00:40:02.150180Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): extract>","logger":"task.stdout"}
